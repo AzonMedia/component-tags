@@ -1,7 +1,7 @@
 {
     "name": "guzaba-platform/tags",
     "type": "library",
-    "description": "Tags interfaces",
+    "description": "GuzabaPlatform Tags component",
     "keywords": ["tags"],
     "homepage": "https://github.com/AzonMedia/component-tags",
     "license": "BSD-3-Clause",
