@@ -1,5 +1,5 @@
 <?php
-
+declare(strict_types=1);
 
 namespace GuzabaPlatform\Tags;
 
@@ -23,4 +23,10 @@ class Component implements ComponentInterface
     protected const VENDOR_NAME = 'Azonmedia';
     protected const VENDOR_URL = 'https://azonmedia.com';
 
+    public static function post_installation_hook(): bool
+    {
+        // TODO: Implement post_installation_hook() method.
+        print 'AAAA package post installation hook'.PHP_EOL;
+        return TRUE;
+    }
 }

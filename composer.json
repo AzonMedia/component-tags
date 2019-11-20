@@ -15,9 +15,8 @@
         }
     ],
     "require": {
-        "azonmedia/tags-base": "dev-master",
-        "azonmedia/guzaba2": "dev-master",
-        "azonmedia/components-base": "dev-master",
+        "guzaba-platform/tags-base": "dev-master",
+        "guzaba-platform/components-base": "dev-master",
         "composer/composer": "^1.10@dev"
     },
     "autoload": {
