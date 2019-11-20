@@ -20,8 +20,8 @@ abstract class PostInstallHook implements PostInstallHookInterface
 
     public static function post_installation_hook(PackageEvent $PackageEvent): bool
     {
-        // TODO: Implement post_installation_hook() method.
-        print 'AAAA package post installation hook'.PHP_EOL;
+        //some custom logic if needed
+
         return TRUE;
     }
 }
