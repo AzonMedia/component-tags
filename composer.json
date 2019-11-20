@@ -17,6 +17,12 @@
     "require": {
         "azonmedia/tags-base": "dev-master",
         "azonmedia/guzaba2": "dev-master",
-        "azonmedia/components-base": "dev-master"
+        "azonmedia/components-base": "dev-master",
+        "composer/composer": "^1.10@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "GuzabaPlatform\\Tags\\": "src/"
+        }
     }
 }
