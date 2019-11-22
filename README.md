@@ -1,1 +1,3 @@
-# Azonmedia\Tags component for GuzabaPlatform
+# GuzabaPlatform\Tags
+
+Tags component for GuzabaPlatform
