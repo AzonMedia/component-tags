@@ -11,7 +11,7 @@ use GuzabaPlatofrm\Tags\Base\Interfaces\TagInterface;
  * @package Azonmedia\Tags
  * @property string tag_name
  */
-class Tag extends ActiveRecord implements TagInterface
+class Tag extends ActiveRecord /* implements TagInterface */
 {
 
     public function get_name(): string
