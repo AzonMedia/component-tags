@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace GuzabaPlatform\Tags;
 
-use Guzaba2\Orm\ActiveRecordWithAuthorization;
+use Guzaba2\Orm\ActiveRecord;
 use GuzabaPlatofrm\Tags\Base\Interfaces\TagInterface;
 
 /**
@@ -11,7 +11,7 @@ use GuzabaPlatofrm\Tags\Base\Interfaces\TagInterface;
  * @package Azonmedia\Tags
  * @property string tag_name
  */
-class Tag extends ActiveRecordWithAuthorization implements TagInterface
+class Tag extends ActiveRecord implements TagInterface
 {
 
     public function get_name(): string
